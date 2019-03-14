@@ -1,4 +1,6 @@
 {
     "phpcs.enable": true,
-    "phpcs.standard": "WordPress"
+    "phpcs.standard": "PSR2",
+    "vscode-php-cs-fixer.rules": "@PSR2",
+    "vscode-php-cs-fixer.toolPath": "/usr/local/bin/php-cs-fixer"
 }
